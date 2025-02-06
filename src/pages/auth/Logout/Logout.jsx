@@ -3,6 +3,7 @@ import { toast } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../../contexts/AuthProvider";
 import { useUserData } from "../../../contexts/UserDataProvider";
+import Logout from "../../Auth/Logout/Logout";
 import "./Logout.css";
 
 export const Logout = () => {
