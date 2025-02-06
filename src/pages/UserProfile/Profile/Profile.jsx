@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuth } from "../../../contexts/AuthProvider";
-import { Logout } from "../../Auth/Logout/Logout";
+import { Logout } from "../../Auth/Logout/Logout.jsx";
 import "./Profile.css";
 
 export const Profile = () => {
