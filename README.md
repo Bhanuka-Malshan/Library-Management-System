@@ -1,6 +1,68 @@
 
-## Screenshots
-<img width="1418" alt="Screenshot 2023-06-30 at 1 40 36 PM" src="https://github.com/ichiragtaluja/react-sneakers-app/assets/114881862/1074096a-f59b-4428-a169-40eb78d7954d">
+# 📚 Library Management System
 
-<img width="1431" alt="Screenshot 2023-06-30 at 1 41 25 PM" src="https://github.com/ichiragtaluja/react-sneakers-app/assets/114881862/664a97b3-4191-47dc-88fc-3eee1489ddaa">
+A full-featured, desktop-based Library Management System built in Java using the Swing framework. This project is designed for libraries to manage books, members, borrowing history, returns, and fine calculations.
+
+## 🔧 Technologies Used
+
+- **Java** – Core programming language
+- **Swing** – GUI toolkit for building the desktop interface
+- **MySQL** – Backend database
+- **JDBC** – Java Database Connectivity
+- **NetBeans** – IDE used for development
+
+## 🧩 Features
+
+- 📖 Add, update, and remove books
+- 👤 Manage library members
+- 🔁 Borrow and return books with due date tracking
+- 💰 Fine management for overdue returns
+- 🔐 Admin login and authentication
+- 📊 Reporting capabilities for issued/returned books
+
+## 📁 Project Structure
+
+Library-Management-System/
+├── src/
+│ ├── library/
+│ │ ├── Login.java
+│ │ ├── Dashboard.java
+│ │ ├── BookManager.java
+│ │ ├── MemberManager.java
+│ │ └── IssueReturn.java
+│ └── DBConnection.java
+├── sql/
+│ └── library_db.sql
+├── README.md
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+- JDK 8+
+- NetBeans IDE
+- MySQL Server
+
+### Steps
+
+1. **Clone the Repo**
+   ```bash
+  - git clone https://github.com/Bhanuka-Malshan/Library-Management-System.git
+  -  cd Library-Management-System
+Import to NetBeans
+- Open NetBeans → File → Open Project → Select this folder
+
+Set up MySQL
+- Create a database: library_db
+- Import sql/library_db.sql
+
+Configure DB Connection
+- Update DBConnection.java with your MySQL username and password
+
+Run the App
+- Click Run Project in NetBeans
+
+🧪 Test Users
+- Username: admin
+- Password: admin123
 
